@@ -18,7 +18,7 @@ jobs:
       - name: Set up Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: '16' # Correct indentation under 'with'
+          node-version: '18'  # ✅ Correct indentation
 
       - name: Install dependencies
         run: |
